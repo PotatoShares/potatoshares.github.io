@@ -1,7 +1,11 @@
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
 html, body {
-    background-color: #81BD5B;
+    background-color: #0B001E;
     height: 100%;
-    margin: 0;
+    margin: 0 auto;
 }
 
 div {
@@ -11,14 +15,90 @@ div {
     min-height: 100%;
 }
 
+section {
+    display: inline-block;
+    width: 100%;
+    padding: 60px 0;
+}
+
 a {
     font-family: 'Lato', sans-serif;
     text-align: center;
-    font-size: 3.5em;
-    display: table-cell;
+    font-size: 1.3em;
     color: white;
     vertical-align: middle;
-    margin: 0;
     text-decoration: none;
     border: 0;
+    margin: 0px 20px;
+}
+
+
+nav, header {
+  display: block;
+}
+
+nav {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  height: 50px;
+  width: 100%;
+  margin: 0px auto;    
+}
+
+header {
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+img {
+
+}
+
+#intro {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 15px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 880px) {
+  .container {
+    width: 80%;
+  }
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.pink {
+    color: #F447A0;
+    color: color(display-p3 0.9568627451 0.2784313725 0.6274509804);
+}
+
+.lightblue {
+    color: #299AFF;
+    color: color(display-p3 0.1607843137 0.6039215686 1);
+}
+
+.purple {
+    color: #8647F4;
+    color: color(display-p3 0.5254901961 0.2784313725 0.9568627451);
+}
+
+.orange {
+    color: #F46A47;
+    color: color(display-p3 0.9568627451 0.4156862745 0.2784313725);
 }
